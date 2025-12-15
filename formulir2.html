@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>format</title>
+</head>
+<body>
+    <h2 align="center">FORMULIR PENDAFTARAN</h2>
+    <form method="post" action="latihan01.html">
+    <table  align="center" border="0" cellspacing="10" bgcolor="FFB6C1">
+        <tr>
+            <td>NIM</td>
+            <td><input type="number" name="NIM" size="20" 
+                placeholder="Masukkan NIM" required> 
+        </td>            
+        </tr>
+        <tr>
+            <td>NAMA</td>
+            <td><input type="text" name="Nama"size="20" 
+                placeholder="Masukkan Nama" required>
+        </td>            
+        </tr>
+        <tr>
+            <td>PASSWORD</td>
+            <td><input type="password" name="PASSWORD"size="20" 
+                placeholder="Masukan Password anda" required>
+        </td>            
+        </tr>
+         <tr>
+            <td valign="top">ALAMAT</td>
+            <td><textarea name="Alamat" cols="30" rows="5" 
+                placeholder="Masukan Alamat" required></textarea>
+         </td>            
+        </tr>
+         <tr>
+            <td>KOTA</td>
+            <td><select name="Kota">
+                <option>--Pilih Kota--</option>
+                <option>PAMULANG</option>
+                <option>SERPONG</option>
+                <option>BINTARO</option>
+            </select>
+        </td>            
+        </tr>
+        <tr>
+            <td>JENIS KELAMIN</td>
+            <td><input type="radio" name="JENIS KELAMIN" 
+                value="LAKI-LAKI"> LAKI-LAKI 
+                <input type="radio" name="JENIS KELAMIN" 
+                value="PEREMPUAN"> PEREMPUAN 
+        </td>            
+        </tr>
+        <tr>
+            <td>TANGGAL LAHIR</td>
+            <td><input type="date" name="Tanggal Lahir" required>
+        </td>            
+        </tr>
+         <tr>
+            <td>JURUSAN</td>
+            <td><select name="Jurusan" size="1">
+                <option>SISTEM INFORMASI</option>
+                <option>MANAJEMENT</option>
+                <option>BIOLOGI</option>
+                <option>TEKNIK SIPIL</option>
+                <option>SASTRA INGGRIS</option>
+            </select>
+        </td>            
+        </tr>
+         <tr>
+            <td>HOBI</td>
+            
+            <td><input type="checkbox" name="Hobi" 
+                value="MENYANYI"> MENYANYI 
+                <input type="checkbox" name="Hobi" 
+                value="MEMASAK"> MEMASAK
+                <input type="checkbox" name="Hobi" 
+                value="RENANG"> RENANG 
+            </td>            
+        </tr>
+         <tr>
+            <td>UPLOAD FILE</td>
+        
+            <td><input type="file" name="Upload File" required> 
+        </td>            
+        </tr>
+         <tr colspan="2">
+            <td>
+                <input type="submit" name="submit" value="KIRIM">           
+            </td>
+            </tr>  
+        <tr>
+           <td>    
+            <input type="reset" name="reset" value="BATALKAN"> 
+        </td>            
+        </tr>
+ </table>
+</form>
+</body>
+</html>
